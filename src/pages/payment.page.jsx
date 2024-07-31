@@ -31,7 +31,7 @@ export default function Payment() {
 
             <div className="mt-6 flex flex-col gap-6">
               {items.map((product) => (
-                <div key={product.siraNo} className="flex items-center justify-between text-sm text-gray-700">
+                <div key={product.urunID} className="flex items-center justify-between text-sm text-gray-700">
                   <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
                     <img src={product.resim} className="h-full w-full object-cover object-center" />
                   </div>
